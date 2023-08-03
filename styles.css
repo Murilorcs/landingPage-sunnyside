@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* cabeçalho */
+header{
+    background-image: url(./images/desktop/image-header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 610px;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    font-size: 2.5em;
+    letter-spacing: .2em;
+    margin-top: 30px;
+    font-weight: 900;
+}
+
+header .seta-baixo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+}
+
+/* barra de navegação */
+nav {
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 0 5%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Fraunces', serif;
+}
+
+nav .logo {
+    float: left;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    font-weight: 900;
+    color: #fff;
+    cursor: context-menu;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+nav ul li {
+    list-style: none;
+    font-weight: 600;
+    font-family: 'Barlow', serif;
+    
+}
+
+nav ul a {
+    display: block; 
+    padding: 1em;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btn-contact{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.8em;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Botão do menu responsivo */
+#nav-toggle {
+    position: absolute;
+    top: -100px;
+}
+
+nav .icon-burger {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 9%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+nav .icon-burger .line {
+    width: 30px;
+    height: 5px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+}
+
+
+/* COMECO segunda parte ......................................................................................*/
+
+.Box-Egg{
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.Box-Egg img{
+    height: 100%;
+    width: 90%;
+}
+
+#textOne{
+    width: 60%;
+    margin-top: 20%;
+    margin-left: 15%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#textOne p{
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(210, 4%, 67%);
+}
+
+#textOne input{
+    font-family: 'Fraunces', serif;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+#textOne h1{
+    color:hsl(212, 27%, 19%);
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+
+#textOne input{
+    background-color: white;
+    border: none;
+    border-bottom: 4px solid hsla(51, 100%, 49%, 0.283);
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+/* ............................................................................................................ */
+
+.Box-Cup{
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.Box-Cup img{
+    height: 100%;
+    width: 85.5%;
+}
+
+#texTwo{
+    width: 60%;
+    margin-top: 20%;
+    margin-left: 15%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#texTwo p{
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(210, 4%, 67%);
+}
+
+#texTwo input{
+    font-family: 'Fraunces', serif;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+#texTwo h1{
+    color:hsl(212, 27%, 19%);
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+
+#texTwo input{
+    background-color: white;
+    border: none;
+    border-bottom: 4px solid hsla(7, 99%, 70%, 0.299);
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+/* ................................................................................................ */
+
+.GraphicDesignFothography{
+    display:flex;
+}
+
+#Cereja{
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 33em;
+    max-width: 50%;
+}
+
+#Cereja h2{
+    text-align: center;
+    margin-top: 55%;
+    font-family: 'Fraunces', serif;
+    color: hsl(167, 40%, 24%);
+    font-weight: 900;
+}
+
+#Cereja p{
+    width: 53%;
+    text-align: center;
+    margin-left: 23%;
+    font-family: 'Barlow', sans-serif;
+    color: hsla(167, 40%, 24%, 0.813);
+    margin-top: 30px;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+#Tangerina{
+    background-image: url(./images/desktop/image-photography.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 33em;
+    max-width: 50%;
+}
+
+#Tangerina h2{
+    text-align: center;
+    margin-top: 55%;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    color: hsl(198, 62%, 26%);
+}
+
+#Tangerina p{
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    font-family: 'Barlow', sans-serif;
+    color: hsla(198, 62%, 26%, 0.785);
+    line-height: 26px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+/* FIM segunda parte  ............................................*/
+
+
+/* COMEÇO DO CSS DE TESTIMONIALS --------------------------------------------------- */
+
+#container-testimonials h1{
+    color: hsl(210, 4%, 67%);
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 1.2em;
+    letter-spacing: 0.25em;
+    text-align: center;
+    padding-top: 7em;
+}
+
+.testimonials{
+    display: flex;
+    margin-top: 4em;
+    margin-left: 5em;
+    align-items: center;
+}
+
+.client{
+    margin-left: 3em;
+    text-align: center;
+}
+
+.client img{
+    border-radius: 30em;
+    width: 4em;
+}
+
+.opinion p{
+    font-family: 'Barlow', sans-serif;
+    color: hsl(213, 9%, 39%);
+    font-size: 1em;
+    margin-top: 4em;
+    line-height: 1.5em;
+}
+
+.info-client{
+    margin-top: 5em;
+}
+
+.info-client h2{
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 27%, 19%);
+    font-size: 1em;
+    font-weight: 900;
+}
+
+.info-client p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 0.8em;
+    color: hsl(210, 4%, 67%);
+    margin-top: 1em;
+}
+
+/* FIM DO CSS DE TESTIMONIALS ------------------------------------------------------ */
+
+/* INICIO DA ESTILIZAÇÃO DAS IMAGENS ANTES DO FOODER ------------------------------- */
+
+#images-before-footer{
+    display: flex;
+    margin-top: 10em;
+}
+
+.sequence-pictures{
+    display: flex;
+}
+
+/* FIM DA ESTILIZAÇÂO DAS IMAGENS -------------------------------------------------- */
+
+/* FOOTER -------------------------------------------------------------------------- */
+
+footer{
+    background-color: hsl(168, 44%, 68%);
+    margin-top: -0.25em;
+    height: 20em;
+}
+
+.title-footer{
+    text-align: center;
+    padding-top: 4em;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 0.9em;
+    color: hsl(167, 40%, 24%);
+}
+
+.links-footer li a{
+    text-align: center;
+    text-decoration: none;
+    color: hsl(168, 34%, 41%);
+}
+
+.links-footer li{
+    list-style: none;
+    margin-left: 3em;
+}
+
+.links-footer{
+    display: flex;
+    margin-left: 36%;
+    margin-top: 2.5em;
+    font-family: 'Barlow', sans-serif;
+}
+
+.icons{
+    text-align: center;
+    margin-top: 5em;
+    margin-left: -1.5em;
+}
+
+.icons img{
+    padding-left: 1.5em;
+}
+
+/* FIM DO FOOTER ---------------------------------------------------------- */
+
+
+
+/* Transição para responsivo */
+@media screen and (max-width: 600px) {
+    nav .logo {
+        float: none;
+        width: auto;
+        justify-content: center;
+    }
+
+    nav ul {
+        float: none;
+        position: fixed;
+        z-index: 9;
+        left: 0;
+        right: 0;
+        top: 100px;
+        bottom: 100%;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-image: linear-gradient(to bottom, white, aliceblue);
+        overflow: hidden;
+        box-sizing: border-box;
+        transition: all .5s ease-in-out;
+    }
+
+
+    nav ul a {
+        font-size: 20px;
+        color: #676767;
+    }
+
+    .btn-contact{
+        background-color: yellow;
+        color: black;
+        width: 120px;
+        height: 50px;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 0.8em;
+        border: none;
+        cursor: pointer;
+    }
+
+    nav :checked~ul {
+        bottom: 0;
+    }
+
+    nav .icon-burger {
+        display: block;
+    }
+
+    nav :checked~.icon-burger .line:nth-child(1) {
+        transform: translateY(10px) rotate(225deg);
+    }
+
+    nav :checked~.icon-burger .line:nth-child(3) {
+        transform: translateY(-10px) rotate(-225deg);
+    }
+
+    nav :checked~.icon-burger .line:nth-child(2) {
+        opacity: 0;
+    }
+
+
+    /* INICIO DA SEGUNDA SEÇÃO */
+    .Box-Egg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Box-Egg img{
+        height: 100%;
+        width: 100%;
+        order: 1;
+    }
+
+    #textOne{
+        width: 80%;
+        margin-top: 20%;
+        margin-left: 0;
+        order: 2;
+    }
+
+    .Box-Cup{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Box-Cup img{
+        width: 100%;
+        margin-top: 15em;
+    }
+
+    #texTwo{
+        text-align: center;
+        width: 88%;
+        margin-left: 20px;
+    }
+
+    .GraphicDesignFothography{
+        flex-direction: column;
+        margin-top: 30em;
+    }
+
+    #Cereja, #Tangerina{
+        max-width: 100%;
+        display: flex;
+        align-items: end;
+    }
+
+    /* INICIO DO CONTAINER TESTEMUNHAS */
+
+    .testimonials{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    } 
+    
+    .client{
+        margin: 0px 0px 80px 0px;
+    }
+
+    .opinion p, .info-client{
+        margin-top: 20px;
+    }
+
+
+    /* SEÇÃO DA IMAGENS ANTES DO FOOTER */
+    #images-before-footer{
+        margin: 0;
+    }
+
+    .sequence-pictures{
+        max-width: 50%;
+        display: block;
+    }
+
+    .sequence-pictures img{
+        width: 100%;
+    }
+
+    /* INICIO FOOTER */
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .title-footer, .links-footer, .icons{
+        text-align: center;
+        justify-content: center;
+        margin-left: 0;
+    }
+}
