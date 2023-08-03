@@ -123,6 +123,12 @@ nav .icon-burger .line {
 
 
 /* COMECO segunda parte ......................................................................................*/
+.Boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .Box-Egg{
     background-attachment: fixed;
@@ -187,8 +193,7 @@ nav .icon-burger .line {
 
 #texTwo{
     width: 60%;
-    margin-top: 20%;
-    margin-left: 15%;
+    margin: 20% auto;
     font-size: 20px;
     font-weight: 600;
 }
@@ -235,9 +240,13 @@ nav .icon-burger .line {
     max-width: 50%;
 }
 
+#content-cereja{
+    position: relative;
+    top: 60%;
+}
+
 #Cereja h2{
     text-align: center;
-    margin-top: 55%;
     font-family: 'Fraunces', serif;
     color: hsl(167, 40%, 24%);
     font-weight: 900;
@@ -262,9 +271,13 @@ nav .icon-burger .line {
     max-width: 50%;
 }
 
+#content-tangerina{
+    position: relative;
+    top: 60%;
+}
+
 #Tangerina h2{
     text-align: center;
-    margin-top: 55%;
     font-family: 'Fraunces', serif;
     font-weight: 900;
     color: hsl(198, 62%, 26%);
@@ -284,6 +297,13 @@ nav .icon-burger .line {
 
 
 /* COMEÇO DO CSS DE TESTIMONIALS --------------------------------------------------- */
+#container-testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 #container-testimonials h1{
     color: hsl(210, 4%, 67%);
@@ -292,13 +312,12 @@ nav .icon-burger .line {
     font-size: 1.2em;
     letter-spacing: 0.25em;
     text-align: center;
-    padding-top: 7em;
+    padding-top: 6em;
 }
 
 .testimonials{
     display: flex;
     margin-top: 4em;
-    margin-left: 5em;
     align-items: center;
 }
 
@@ -345,6 +364,7 @@ nav .icon-burger .line {
 #images-before-footer{
     display: flex;
     margin-top: 10em;
+    width: 100%;
 }
 
 .sequence-pictures{
@@ -516,8 +536,12 @@ footer{
 
     #Cereja, #Tangerina{
         max-width: 100%;
-        display: flex;
-        align-items: end;
+        justify-content: center;
+    }  
+    
+    #Cereja p, #Tangerina p{
+        width: 80%;
+        margin: 30px auto;
     }
 
     /* INICIO DO CONTAINER TESTEMUNHAS */
