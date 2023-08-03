@@ -133,13 +133,12 @@ nav .icon-burger .line {
 
 .Box-Egg img{
     height: 100%;
-    width: 90%;
+    width: 50%;
 }
 
 #textOne{
-    width: 60%;
-    margin-top: 20%;
-    margin-left: 15%;
+    max-width: 400px;
+    margin: auto;
     font-size: 20px;
     font-weight: 600;
 }
@@ -404,6 +403,11 @@ footer{
 
 /* Transição para responsivo */
 @media screen and (max-width: 600px) {
+    header .seta-baixo{
+        position: relative;
+        top: 50px;
+    }
+
     nav .logo {
         float: none;
         width: auto;
@@ -484,7 +488,6 @@ footer{
     #textOne{
         width: 80%;
         margin-top: 20%;
-        margin-left: 0;
         order: 2;
     }
 
