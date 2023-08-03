@@ -423,6 +423,7 @@ footer{
         top: 50px;
     }
 
+
     nav .logo {
         float: none;
         width: auto;
@@ -435,7 +436,7 @@ footer{
         z-index: 9;
         left: 0;
         right: 0;
-        top: 100px;
+        top: 0;
         bottom: 100%;
         width: auto;
         height: auto;
@@ -471,6 +472,8 @@ footer{
 
     nav .icon-burger {
         display: block;
+        z-index: 10;
+        background-color: #38c6f7a0;
     }
 
     nav :checked~.icon-burger .line:nth-child(1) {
