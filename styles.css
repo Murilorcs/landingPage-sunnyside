@@ -476,6 +476,8 @@ footer{
 
     nav .icon-burger {
         display: block;
+        posittion: absolute;
+        top: 5%;
         z-index: 10;
         background-color: #38c6f7a0;
     }
