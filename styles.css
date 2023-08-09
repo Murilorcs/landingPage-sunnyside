@@ -123,6 +123,10 @@ nav .icon-burger .line {
 
 
 /* COMECO segunda parte ......................................................................................*/
+section{
+    width: 100%;
+}
+
 .Boxes{
     display: flex;
     flex-direction: column;
@@ -132,23 +136,20 @@ nav .icon-burger .line {
 }
 
 .Box-Egg{
-   display: flex;
-   justify-content: center;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
 }
 
 .Box-Egg img{
-    max-width: 50%;
+  width: 100%;
 }
 
 #textOne{
-    margin: auto;
-    font-size: 20px;
-    font-weight: 600;
-    padding-left: 7em;
+  margin: auto;
+  max-width: 60%;
 }
 
 #textOne p{
-    max-width: 80%;
     margin-top: 30px;
     font-size: 16px;
     line-height: 28px;
@@ -179,23 +180,22 @@ nav .icon-burger .line {
 /* ............................................................................................................ */
 
 .Box-Cup{
-    display: flex;
-    justify-content: center;
+    display: grid;
+   grid-template-columns: 1fr 1fr;
 }
 
 .Box-Cup img{
-    max-width: 50%;
+    width: 100%;
 }
 
 #texTwo{
-    margin: 20% auto;
+    margin: auto;
     font-size: 20px;
     font-weight: 600;
-    padding-left: 7em;
+    max-width: 60%;
 }
 
 #texTwo p{
-    max-width: 80%;
     margin-top: 30px;
     font-size: 16px;
     line-height: 28px;
@@ -228,6 +228,7 @@ nav .icon-burger .line {
 .GraphicDesignFothography{
     display:flex;
     justify-content: center;
+    width: 100%;
 }
 
 #Cereja{
@@ -235,7 +236,7 @@ nav .icon-burger .line {
     background-size: cover;
     background-position: center;
     height: 33em;
-    max-width: 50%;
+    width: 50%;
 }
 
 #content-cereja{
@@ -266,7 +267,7 @@ nav .icon-burger .line {
     background-size: cover;
     background-position: center;
     height: 33em;
-    max-width: 50%;
+    width: 50%;
 }
 
 #content-tangerina{
@@ -361,7 +362,6 @@ nav .icon-burger .line {
 
 #images-before-footer{
     display: flex;
-    justify-content: center;
     margin-top: 10em;
     max-width: 100%;
 }
@@ -476,8 +476,6 @@ footer{
 
     nav .icon-burger {
         display: block;
-        posittion: absolute;
-        top: 7%;
         z-index: 10;
         background-color: #38c6f7a0;
     }
