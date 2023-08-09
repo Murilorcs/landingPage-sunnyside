@@ -366,8 +366,8 @@ section{
     max-width: 100%;
 }
 
-.sequence-pictures{
-    display: flex;
+#images-before-footer img{
+    width: 25%;
 }
 
 /* FIM DA ESTILIZAÇÂO DAS IMAGENS -------------------------------------------------- */
@@ -514,7 +514,7 @@ footer{
     }
 
     #textOne p{
-        max-width: 100%;;
+        max-width: 100%;
     }
 
     .Box-Cup{
@@ -532,6 +532,7 @@ footer{
     #texTwo{
         text-align: center;
         padding: 0;
+        margin: 20% auto;
     }
 
     #texTwo p{
@@ -543,7 +544,7 @@ footer{
     }
 
     #Cereja, #Tangerina{
-        max-width: 100%;
+        width: 100%;
         justify-content: center;
     }  
     
@@ -572,17 +573,11 @@ footer{
 
     /* SEÇÃO DA IMAGENS ANTES DO FOOTER */
     #images-before-footer{
-        margin: 0;
         flex-wrap: wrap;
     }
 
-    .sequence-pictures{
-        max-width: 50%;
-        display: block;
-    }
-
-    .sequence-pictures img{
-        width: 100%;
+    #images-before-footer img{
+        width: 50%;
     }
 
     /* INICIO FOOTER */
