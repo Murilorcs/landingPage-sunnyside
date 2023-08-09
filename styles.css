@@ -477,7 +477,6 @@ footer{
     nav .icon-burger {
         display: block;
         z-index: 10;
-        background-color: #38c6f7a0;
     }
 
     nav :checked~.icon-burger .line:nth-child(1) {
