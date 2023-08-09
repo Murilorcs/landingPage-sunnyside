@@ -482,14 +482,17 @@ footer{
 
     nav :checked~.icon-burger .line:nth-child(1) {
         transform: translateY(10px) rotate(225deg);
+        background-color: black;
     }
 
     nav :checked~.icon-burger .line:nth-child(3) {
         transform: translateY(-10px) rotate(-225deg);
+        background-color: black;
     }
 
     nav :checked~.icon-burger .line:nth-child(2) {
         opacity: 0;
+        background-color: black;
     }
 
 
